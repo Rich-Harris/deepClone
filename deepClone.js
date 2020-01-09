@@ -13,7 +13,7 @@
 		var key, i, result;
 
 		// if it's a primitive, do nothing
-		if ( typeof obj !== 'object' ) {
+		if ( typeof obj !== 'object' || !obj ) {
 			return obj;
 		}
 
